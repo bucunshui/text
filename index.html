@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>不存水的项目一</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            width: 1200px;
+            height:;
+            border: 1px solid black;
+            margin:0 auto;
+            position: relative;
+          
+        }
+        .header{
+            width:100%;
+            height:700px;
+            position: absolute; 
+            border-bottom: 5px solid white;
+        }
+        .header ul{
+            box-sizing: border-box;
+            width:1200px;
+            height:50px;
+            position: absolute;
+            top:0;
+            background-color: white;
+            margin:0;
+            text-align: center;
+        }
+        .header ul li{
+            list-style: none;
+            float: left;
+            width:200px;
+            padding-top:15px;
+        }
+        .header ul li a{
+            text-decoration: none;
+            color:black;
+            font-size:20px;
+          
+        }
+        .header ul li a:hover{
+            color: chocolate;
+        }
+        .header ul li:first-child{
+            margin-left: 200px;
+        }
+        .header img{
+            width:100%;
+            height:100%;
+        }
+        .header h1{
+            position: absolute;
+            top:200px;
+            right:500px;
+            /* border: 1px solid red ; */
+            color:white;
+            font-size: 60px;
+            letter-spacing: 40px;
+            text-shadow: 0px 8px 20px  rgb(244, 255, 93);
+        }
+        .header hr{
+            position: absolute;
+            top:350px;
+            right:480px;
+            width: 300px;
+            height:1px;
+            background-color: white;
+        }
+        .header h3{
+            position: absolute;
+            top:350px;
+            right:480px;
+            font-size: 40px;
+            letter-spacing: 20px;
+            color:white;
+        }
+        .content{
+            width:100%;
+            position: absolute;
+            top:750px;
+        }
+        .content .column{
+            box-sizing: border-box;
+            width:500px;
+            height:550px;
+            float:left;
+            color:black;
+            text-align: center;
+            background-color:white;
+            margin-bottom:20px;
+            padding:5px;
+        }
+        .content .column img{
+            width:480px;
+            height:300px;
+            border:5px solid rgb(241, 241, 183);
+            border-radius: 10px;
+        }
+        .content .column:first-child,
+        .content .column:nth-child(3){
+            margin-right:200px;
+        }
+        .content .column p{
+            font-size: 16px;
+            line-height: 25px;
+            text-align: left;
+            margin:10px;
+        }
+        .footer{
+            width:100%;
+            height:50px;
+            background-color: white;
+            position: absolute;
+            top:1900px;
+            margin-bottom:50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li><a href="#one">极光的形态</a></li>
+                <li><a href="#two">极光的分布区域</a></li>
+                <li><a href="#three">极光的基本分类</a></li>
+                <li><a href="#four">极光产生原因</a></li>
+            </ul>
+            <h1>极光</h1>
+            <hr>
+            <h3>Aurora</h3>
+            <img src="https://resource.bcgame-face2face.haorenao.cn/slide03.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="column" id="one">
+                <img src="https://resource.bcgame-face2face.haorenao.cn/pic01.jpg" alt="">
+                <h4>极光的形态</h4>
+                <p>根据关于极光分布情况的研究，极光区的形状不是以地磁极为中心的圆环状，而是卵形。极光的光谱线范围约为3100～6700埃，其中最重要的谱线是5577埃的氧原子绿线，称为极光绿线。</p>
+            </div>               
+            <div class="column" id="two">
+                <img src="https://resource.bcgame-face2face.haorenao.cn/pic03.jpg" alt="">
+                <h4>极光的分布区域</h4>
+                <p>由于地磁场的作用，这些高能粒子转向极区，所以极光常见于高磁纬地区。在大约离磁极25°～30°的范围内常出现极光，这个区域称为极光区。在地磁纬度45°～60°之间的区域称为弱极光区，地磁纬度低于45°的区域称为微极光区。</p>
+            </div>
+            <div class="column" id="four">
+                <img src="https://resource.bcgame-face2face.haorenao.cn/pic04.jpg" alt="">
+                <h4>极光的基本分类</h4>
+                <p>按照极光的形态分类，可分为匀光弧极光、射线式光柱极光、射线式光弧光带极光、帘幕状极光、极光冕等。<br>
+                    按照极光观测的电磁波波段，可分为光学极光、无线电极光等。<br>
+                    按激光激发粒子类型，可分为电子极光、质子极光等。<br>
+                    按照极光发生区域，可分为极盖极光、极光带极光 、中纬极光红弧等.<br>
+                </p>
+            </div>
+            <div class="column" id="three">
+                <img src="https://resource.bcgame-face2face.haorenao.cn/pic02.jpg" alt="">
+                <h4>极光产生原因</h4>
+                <p>极光出现于星球的高磁纬地区上空，是一种绚丽多彩的发光现象。而地球的极光，来自地球磁层和太阳的高能带电粒子流（太阳风）使高层大气分子或原子激发（或电离）而产生。极光产生的条件有三个：大气、磁场、高能带电粒子。这三者缺一不可。极光不只在地球上出现，太阳系内的其他一些具有磁场的行星上也有极光。</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&#169;不存水2018.8</p>
+        </div>
+    </div>
+</body>
+</html>
